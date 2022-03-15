@@ -1,0 +1,33 @@
+@media (max-with: 1000px){
+  .main-content {
+    text-align: center;
+  }
+  .banner {
+    display: none;
+  }
+}
+
+@media all and (max-width: 670px){
+  .menu-icon {
+    display: block;
+  }
+  .gb-link {
+    display: none;
+    float: right;
+  }
+  .gb-brand {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+  .main-content {
+    text-align: left;
+  }
+  body {
+    width: 100%
+  }
+  .content {
+    text-align: center;
+  }
+}

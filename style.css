@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #202040;
@@ -160,7 +164,8 @@ body {
   /* quotes start  */
   .quotes h3 {
     margin-top: 1180px;
-    margin-left: 410px;
+    margin-left: 320px;
+    text-align: center;
     color: white;
     font-family: "Quicksand", sans-serif;
     font-size: 20px;
@@ -172,7 +177,7 @@ body {
 
   .circle1 {
     margin-top: 1250px;
-    margin-left: 525px;
+    margin-left: 425px;
     height: 150px;
     width: 150px;
     background-image: url("quotes1.png");
@@ -184,7 +189,7 @@ body {
 
   .name-title {
     margin-top: 1410px;
-    margin-left: 540px;
+    margin-left: 440px;
     font-family: "Quicksand", sans-serif;
     color: white;
     font-size: 25px;
@@ -203,7 +208,7 @@ body {
 
   .circle2 {
     margin-top: 1275px;
-    margin-left: 710px;
+    margin-left: 300px;
     height: 90px;
     width: 90px;
     background-image: url("quotes2.png");
@@ -215,7 +220,7 @@ body {
 
   .circle3 {
     margin-top: 1275px;
-    margin-left: 400px;
+    margin-left: 610px;
     height: 90px;
     width: 90px;
     background-image: url("quotes3.png");

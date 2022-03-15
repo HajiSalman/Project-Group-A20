@@ -1,8 +1,14 @@
-@media (max-with: 1000px){
+@media all and (max-with: 1000px){
   .main-content {
     text-align: center;
   }
   .banner {
+    font-size: 0;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .gb-link {
     display: none;
   }
 }
@@ -21,7 +27,7 @@
   .banner {
     display: none;
   }
-  .main-content {
+  .deskripsi1 {
     text-align: left;
   }
   body {
@@ -29,5 +35,35 @@
   }
   .content {
     text-align: center;
+  }
+  .text {
+    font-size: 13px;
+  }
+  .btn-join {
+    text-align: center;
+  }
+  .rectangle {
+    float: left;
+  }
+  .circle1 {
+    margin-left: 15%;
+  }
+  .circle2 {
+    margin-left: 0.1%;
+  }
+  .circle3 {
+    margin-left: 40%;
+  }
+  .quotes h3 {
+    font-size: 14px;
+    margin-left: 5%
+  }
+  .name-title {
+    font-size: 18px;
+    margin-left: 20%;
+    letter-spacing: 2px;
+  }
+  .title-personal {
+    margin-left: 13%;
   }
 }

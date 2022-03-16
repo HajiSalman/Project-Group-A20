@@ -1,0 +1,32 @@
+/* Untuk Tablets */
+@media screen and (max-width: 1000px) {
+    .header-wrapping{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .header-wrapping img{
+      height: 300px;
+      align-items: center;
+    }
+    .text-header h1{
+      font-size: 30px;
+    }
+    .content-wrapping{
+      flex-direction: column;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .content-wrapping img{
+      align-items: center;
+    }
+
+    .quotes-wrapping{
+      flex-direction: column;
+      text-align: center;
+      /* margin-top: 20px; */
+    }
+    .circle img{
+      flex-direction: column;
+    }
+  }
